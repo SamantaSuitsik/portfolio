@@ -1,0 +1,40 @@
+@font-face {
+    font-family: spaceShard;
+    src: url(../public/SpaceShards-RpExo.ttf);
+}
+
+@font-face {
+    font-family: broly;
+    src: url(../public/BrolyRegular-x3qgj.ttf);
+}
+
+@font-face {
+    font-family: metal;
+    src: url(../public/MetalVengeance-0WqV9.ttf);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 11vh;
+
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: spaceShard;
+    font-size: 26vh;
+}
+
+.software, .dash {
+    display: inline;
+}
+
+.dev {
+    font-family: broly;
+    color: rgb(248, 152, 221);
+}

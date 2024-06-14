@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links, .home {
+    margin-top: 8vh;
+
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 8vh;
+    color: black;
+}
+
+.home {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8vh;
+}
