@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30vh;
-    margin-top: 7vh;
+    margin-top: 11vh;
 }
 
 .software, .dash, .dev {
@@ -24,8 +24,32 @@
     color: var(--pink-font);
 }
 
-.picture {
+.imagecontainer {
+    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* .code, .purple {
     padding-top: 1vh;
     width: 100%;
     height: auto;
+} */
+
+.purple {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.code {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    height: auto;
+    width: 30%;
+    z-index: 10;
 }
