@@ -1,0 +1,19 @@
+@font-face {
+    font-family: space-shard;
+    src: url(../public/SpaceShards-RpExo.ttf);
+}
+
+@font-face {
+    font-family: broly;
+    src: url(../public/BrolyRegular-x3qgj.ttf);
+}
+
+@font-face {
+    font-family: metal;
+    src: url(../public/MetalVengeance-0WqV9.ttf);
+}
+
+body {
+    --pink-font: rgb(248, 152, 221);
+}
+

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30vh;
+    margin-top: 7vh;
+}
+
+.software, .dash, .dev {
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: space-shard;
+    font-size: clamp(3rem, 0.296rem + 12.9148vw, 12rem);
+    /* 26 vh */
+}
+
+.software, .dash {
+    display: inline;
+}
+
+.dev {
+    font-family: broly;
+    color: var(--pink-font);
+}
+
+.picture {
+    padding-top: 1vh;
+    width: 100%;
+    height: auto;
+}
