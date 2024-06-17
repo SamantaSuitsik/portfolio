@@ -1,9 +1,12 @@
 .container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
-.blocks {
-    display: flex;
-    flex-direction: column;
-}
+.box {
+    background-color: rgb(89, 65, 122);
+    border-color: black;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+} 

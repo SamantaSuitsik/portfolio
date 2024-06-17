@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30vh;
     margin-top: 11vh;
+    background: url(../public/backgroundblue.png);
 }
 
 .software, .dash, .dev {
@@ -21,35 +21,5 @@
 
 .dev {
     font-family: broly;
-    color: var(--pink-font);
-}
-
-.imagecontainer {
-    
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-/* .code, .purple {
-    padding-top: 1vh;
-    width: 100%;
-    height: auto;
-} */
-
-.purple {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-}
-
-.code {
-    position: absolute;
-    top: 110px;
-    left: 50px;
-    height: auto;
-    width: 30%;
-    z-index: 10;
+    color: var(--blue-font);
 }

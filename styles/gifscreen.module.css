@@ -1,0 +1,23 @@
+.imagecontainer {
+    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.purple {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.codepic {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    height: auto;
+    width: 30%;
+    z-index: 10;
+}

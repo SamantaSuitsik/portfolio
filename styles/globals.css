@@ -17,5 +17,7 @@ body {
     margin: 0;
     padding: 0;
     --pink-font: rgb(248, 152, 221);
+    --blue-font: rgb(23, 23, 81);
+    background-color: #cbdbe8;
 }
 
