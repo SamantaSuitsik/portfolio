@@ -9,15 +9,15 @@
 .link {
     text-decoration: none;
     margin-right: 10vh;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: large;
     
 }
 
 .home {
     text-decoration: none;
-    font-family: space-shard;
+    font-family: plumpelo;
     font-size: xx-large;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 12vh;
 }

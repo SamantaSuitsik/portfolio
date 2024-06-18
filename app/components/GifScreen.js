@@ -7,11 +7,11 @@ export default function GifScreen() {
         <div className={styles.imagecontainer}>
             <img 
             className={styles.codepic} 
-            src="croppedcodegif.gif" 
+            src="/images/croppedcodegif.gif" 
             alt="Abstract picture of code"/>
             <img 
             className={styles.purple}
-            src="purple.png"></img>
+            src="/images/purple.png"></img>
         </div>
     );
 

@@ -1,17 +1,34 @@
 @font-face {
     font-family: space-shard;
-    src: url(../public/SpaceShards-RpExo.ttf);
+    src: url(../public/fonts/SpaceShards-RpExo.ttf);
 }
 
 @font-face {
     font-family: broly;
-    src: url(../public/BrolyRegular-x3qgj.ttf);
+    src: url(../public/fonts/BrolyRegular-x3qgj.ttf);
 }
 
 @font-face {
     font-family: metal;
-    src: url(../public/MetalVengeance-0WqV9.ttf);
+    src: url(../public/fonts/MetalVengeance-0WqV9.ttf);
 }
+
+@font-face {
+    font-family: plumpelo;
+    src: url(../public/fonts/PlumpeloV2Regular.ttf);
+}
+
+@font-face {
+    font-family: shrik;
+    src: url(../public/fonts/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+    font-family: dm;
+    src: url(../public/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+
 
 body {
     margin: 0;

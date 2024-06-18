@@ -9,17 +9,6 @@
 
 }
 
-.blureffectupward {
-    position: absolute;
-    top: -50px;
-    left: 0;
-    height: 24.45%;
-    width: 100%;
-    z-index: 5;
-    background: linear-gradient(to bottom, transparent, #7ab0dca5, #99bdd5); /* Adjust colors and direction as needed */
-    pointer-events: none; 
-}
-
 .background {
     position: relative;
     top: 0;
@@ -28,11 +17,64 @@
     height: auto;
 }
 
-
 .blureffect {
     position: absolute;
+    top: -15px;
+    left: 0;
+    height: 45%;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to bottom, transparent, #99bdd5, transparent); /* Adjust colors and direction as needed */
+    pointer-events: none;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+
+}
+
+/* 
+.blobcontainer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.cloud {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    position: absolute;
+    top: 3vh;
+    left: 3vh;
+    width: 30%;
+    z-index: 10;
+} */
+
+
+
+
+/* not used */
+.blureffectupward {
+    position: absolute;
+    top: 0;
     left: 0;
     height: 24.45%;
+    width: 100%;
+    z-index: 5;
+    background: linear-gradient(to bottom, transparent, #7ab0dca5, #99bdd5); /* Adjust colors and direction as needed */
+    pointer-events: none; 
+}
+
+/* not used */
+.blureffectdownward {
+    position: absolute;
+    left: 0;
+    height:24.45%;
     width: 100%;
     z-index: 5;
     background: linear-gradient(to bottom, #99bdd5, #7ab0dc96, transparent); /* Adjust colors and direction as needed */
