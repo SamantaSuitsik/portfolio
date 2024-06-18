@@ -2,13 +2,16 @@ import styles from "@/styles/header.module.css"
 
 export default function Header() {
     return (
-        <div className={styles.navbar}>
-            <a className={styles.home} href="/">Home</a>
-
+        <>
             <div className={styles.links}>
-                <a className={styles.link} href="/as">Blog</a>
-                <a className={styles.link} href="/about">About</a>
+                <a className={styles.blog} href="/as">Blog</a>
+                <a className={styles.about} href="/about">About</a>
             </div>
-        </div>
+            <div className={styles.menu}>
+                <img 
+                src="/images/menu.svg"
+                alt="menu button"/>
+            </div>
+        </>
     );
 }

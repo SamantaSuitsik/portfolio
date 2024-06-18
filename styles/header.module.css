@@ -1,23 +1,25 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 6vh;
-
-}
-
-.link {
+.blog, .about {
     text-decoration: none;
-    margin-right: 10vh;
     color: rgb(0, 0, 0);
     font-size: large;
-    
+    margin-right: 10vh;
 }
 
-.home {
-    text-decoration: none;
-    font-family: plumpelo;
-    font-size: xx-large;
-    color: rgb(0, 0, 0);
-    margin-left: 12vh;
+.menu {
+    display: none;
+}
+
+@media (width <= 600px) {
+    
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 4vh;
+        cursor: pointer;
+    }
+
+    
 }

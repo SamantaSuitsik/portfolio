@@ -1,5 +1,6 @@
 import styles from "@/styles/secondscreen.module.css"
-import Box from "@/app/components/Box"
+import Box from "@/app/components/BoxAndText"
+import BoxAndText from "@/app/components/BoxAndText";
 
 export default function SecondScreen() {
 
@@ -16,7 +17,7 @@ export default function SecondScreen() {
                 src="/images/cuteblue.jpg" 
                 alt="Abstract picture of lightblue blobs."/>
                 <div className={styles.wrapper}>
-                    <Box />
+                    <BoxAndText />
                 </div>
             </div>
 

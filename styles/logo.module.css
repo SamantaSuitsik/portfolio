@@ -1,0 +1,16 @@
+.home {
+    text-decoration: none;
+    font-family: plumpelo;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin-left: 12vh;
+}
+
+@media (width <= 600px) {
+
+    .home {
+        margin-left: 3vh;
+        font-size: larger;
+    }
+    
+}

@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.cloud {
+    width: 60vh;
+    grid-column: 2 / 5;
+    grid-row: 3;
+}
+
+.paragraph {
+    font-family: dm;
+    font-size: 5vh;
+    grid-column: 5 / 8;
+    grid-row: 3 / 5;
+}
+
+@media (width <= 600px) {
+    .cloud {
+        width: 70%;
+        
+    }
+    
+    .paragraph {
+        font-size: small;
+        grid-row: 2;
+    }
+    
+}
+
+@media (600px < width <= 1400px) {
+
+    .cloud {
+        width: 70%;
+    }
+
+    .paragraph {
+        font-size: large;
+    }
+}

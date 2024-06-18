@@ -1,8 +1,8 @@
-import styles from "@/styles/box.module.css"
+import styles from "@/styles/boxandtext.module.css"
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-export default function Box() {
+export default function BoxAndText() {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,

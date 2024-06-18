@@ -6,7 +6,7 @@
     background: url(../public/images/backgroundblue.png);
 }
 
-.software, .dash, .dev {
+.software, .dev {
     font-weight: normal;
     margin-bottom: 0;
     margin-top: 0;
@@ -15,11 +15,27 @@
     /* 26 vh */
 }
 
-.software, .dash {
+.software, .dev {
     display: inline;
     font-family: plumpelo;
 }
 
 .dev {
     font-family: plumpelo;
+}
+
+@media (width <= 600px) {
+
+    .container {
+        margin-top: 10vh;
+    }
+
+    .software, .dev {
+        font-size: 4vh;
+    }
+
+    /* .software, .dev {
+        font-size: 6vh;
+        display: block;
+    } */
 }
