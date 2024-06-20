@@ -1,0 +1,29 @@
+/* .container {
+    overflow-x: hidden;
+    overflow-y: visible;
+} */
+
+.video {
+    display: none;
+}
+
+@media ( width <= 600px) {
+
+    .video {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        transform: translateY(-20%) translateX(-13.5%);
+        zoom: 134%;
+    }
+    
+}
+
+@media (max-width: 431px) {
+    .video {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        transform: translateY(-20%);
+    }
+}

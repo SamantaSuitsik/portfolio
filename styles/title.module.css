@@ -24,18 +24,24 @@
     font-family: plumpelo;
 }
 
+/* .image {
+    width: 90%;
+} */
+
 @media (width <= 600px) {
 
     .container {
-        margin-top: 10vh;
+        margin-top: 5vh;
+        background: none;
     }
 
     .software, .dev {
-        font-size: 4vh;
+        font-size: 6vh;
+        color: black;
     }
 
     /* .software, .dev {
-        font-size: 6vh;
+        font-size: 8vh;
         display: block;
     } */
 }

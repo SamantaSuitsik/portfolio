@@ -18,8 +18,10 @@
 }
 
 @media (width <= 600px) {
+
     .cloud {
         width: 70%;
+        
         
     }
     

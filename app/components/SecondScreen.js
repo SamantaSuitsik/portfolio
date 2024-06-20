@@ -1,5 +1,4 @@
 import styles from "@/styles/secondscreen.module.css"
-import Box from "@/app/components/BoxAndText"
 import BoxAndText from "@/app/components/BoxAndText";
 
 export default function SecondScreen() {

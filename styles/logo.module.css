@@ -4,6 +4,7 @@
     font-size: xx-large;
     color: rgb(0, 0, 0);
     margin-left: 12vh;
+    cursor: pointer;
 }
 
 @media (width <= 600px) {

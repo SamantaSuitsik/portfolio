@@ -1,8 +1,7 @@
 import styles from "@/styles/title.module.css"
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from 'framer-motion';
-import GifScreen from "@/app/components/GifScreen";
-import SecondScreen from "./SecondScreen";
+import IntroductionText from "./IntroductionText";
 
 export default function Title() {
     const container = useRef(null);
@@ -19,13 +18,18 @@ export default function Title() {
                 <motion.div className={styles.title-container}>
                     <div className={styles.title}>
                         <div className={styles.oneLine}>
-                            <h1 className={styles.software}>Software</h1>
+                            <h1 className={styles.software}>Soft</h1>
+                            <h1 className={styles.software}>ware</h1>
                         </div>
-                        <h1 className={styles.dev}>developer</h1>
+                        <h1 className={styles.dev}>dev</h1>
+                        <h1 className={styles.dev}>eloper</h1>
                     </div>
                 </motion.div>
+                {/* <img 
+                className={styles.image}
+                src="/images/snap.jpg"
+                alt="Picture of me."/> */}
             </motion.div>
-            <SecondScreen/>
         </>
         
     );

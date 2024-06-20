@@ -36,5 +36,7 @@ body {
     --pink-font: rgb(248, 152, 221);
     --blue-font: rgb(23, 23, 81);
     background-color: #cbdbe8;
+    font-family: dm;
+    overflow-x: hidden;
 }
 
