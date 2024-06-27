@@ -2,6 +2,7 @@ import styles from "@/styles/title.module.css"
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from 'framer-motion';
 import IntroductionText from "./IntroductionText";
+import Picture from "./Picture";
 
 export default function Title() {
     const container = useRef(null);
@@ -25,10 +26,6 @@ export default function Title() {
                         <h1 className={styles.dev}>eloper</h1>
                     </div>
                 </motion.div>
-                {/* <img 
-                className={styles.image}
-                src="/images/snap.jpg"
-                alt="Picture of me."/> */}
             </motion.div>
         </>
         

@@ -18,6 +18,10 @@ export default function SecondScreen() {
                 <div className={styles.wrapper}>
                     <BoxAndText />
                 </div>
+                <img
+                className={styles.transition}
+                src="/images/backgroundblue.png" />
+                <div className={styles.blureffectbottom}></div>
             </div>
 
         </>

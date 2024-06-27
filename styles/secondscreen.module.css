@@ -1,12 +1,10 @@
 .container {
     position: relative;
-    top: 0;
-    left: 0;
     overflow: hidden;
 }
 
 .transition {
-    width: 30%;
+    width: 40%;
 
 }
 
@@ -16,17 +14,24 @@
     left: 0;
     width: 100%;
     height: auto;
+    object-fit: cover;
+}
+
+.blureffect, .blureffectbottom {
+    position: absolute;
+    height: 41%;
+    width: 100%;
+    z-index: 2;
+    background: linear-gradient(to bottom, transparent, #99bdd5, transparent); /* Adjust colors and direction as needed */
+    pointer-events: none;
 }
 
 .blureffect {
-    position: absolute;
-    top: -15px;
-    left: 0;
-    height: 45%;
-    width: 100%;
-    z-index: 5;
-    background: linear-gradient(to bottom, transparent, #99bdd5, transparent); /* Adjust colors and direction as needed */
-    pointer-events: none;
+    top: 0px;
+}
+
+.blureffectbottom {
+    bottom: 0px;
 }
 
 .wrapper {
@@ -35,7 +40,7 @@
     left: 0;
     width: 100%;
     height: auto;
-    z-index: 10;
+    z-index: 3;
 
 }
 

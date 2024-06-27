@@ -25,8 +25,6 @@ export default function BoxAndText() {
                     <p className={styles.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo mauris, bibendum vel congue nec, euismod sit amet purus.
                     </p>
-                    
-                    
             </motion.div>
         </>
     );

@@ -5,17 +5,15 @@ import HeaderContainer from './components/HeaderContainer';
 import SecondScreen from './components/SecondScreen';
 import Video from './components/Video';
 import styles from "@/styles/page.module.css"
+import Projects from './components/Projects';
 
 export default function Home() {
     return (
         <div className={styles.container}>
-            <div className={styles.video}>
-                <Video />
-
-            </div>
             <HeaderContainer />
             <Title></Title>
             <SecondScreen />
+            <Projects />
         </div>
     );
 };
