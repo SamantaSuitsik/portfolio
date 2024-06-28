@@ -1,6 +1,18 @@
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    margin-bottom: 8vh;
+}
+
+.titlecontainer {
+    width: 85%;
+}
+
+.ul {
+    width: 85%;
+    padding: 0;
 }

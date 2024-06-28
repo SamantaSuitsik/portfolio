@@ -19,11 +19,11 @@ export default function Title() {
                 <motion.div className={styles.title-container}>
                     <div className={styles.title}>
                         <div className={styles.oneLine}>
-                            <h1 className={styles.software}>Soft</h1>
-                            <h1 className={styles.software}>ware</h1>
+                            <span className={styles.software}>Soft</span>
+                            <span className={styles.software}>ware</span>
                         </div>
-                        <h1 className={styles.dev}>dev</h1>
-                        <h1 className={styles.dev}>eloper</h1>
+                        <span className={styles.dev}>dev</span>
+                        <span className={styles.dev}>eloper</span>
                     </div>
                 </motion.div>
             </motion.div>

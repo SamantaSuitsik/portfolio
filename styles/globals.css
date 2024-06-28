@@ -40,3 +40,9 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-weight: lighter;
+    font-family: plumpelo;
+    font-size: clamp(3rem, 1.4074rem + 5.9259vw, 4rem);
+}
+
