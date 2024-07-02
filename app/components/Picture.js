@@ -1,14 +1,14 @@
+import styles from "@/styles/about/picture.module.css"
 
 export default function Picture() {
 
     return (
-        <div>
+        <>  
             <img 
-            style={{width: '90%',
-                    transform: 'translateX(6%)'
-            }}
+            className={styles.pic}
             src="/images/snap.jpg"
             alt="Picture of me."/>
-        </div>
+        </>
+        
     );
 }

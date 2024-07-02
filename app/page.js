@@ -7,6 +7,7 @@ import Video from './components/Video';
 import styles from "@/styles/page.module.css"
 import Projects from './components/Projects';
 import Works from './components/Works';
+import Footer from './components/Footer';
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <SecondScreen />
             <Projects />
             <Works />
+            <Footer />
         </div>
     );
 };

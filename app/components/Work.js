@@ -4,12 +4,12 @@ export default function Work({company, title, time}) {
 
     return (
         <div>
-            <h2>{company}</h2>
+            <h2 className={styles.h2}>{company}</h2>
             <div className={styles.row}>
-                <span>{title}</span>
-                <span>{time}</span>
+                <p>{title}</p>
+                <p>{time}</p>
             </div>
-            <div className={styles.box}></div>
+            <div className="squiggle"></div>
         </div>
     );
 }

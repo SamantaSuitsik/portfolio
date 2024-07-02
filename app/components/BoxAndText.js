@@ -23,7 +23,7 @@ export default function BoxAndText() {
                     alt="A little moving white lump."/>
 
                     <p className={styles.paragraph}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec leo mauris, bibendum vel congue nec, euismod sit amet purus.
+                        Asi ei ole selles, kas saab või ei saa, vaid selles, kas sa skeemitad välja või ei.
                     </p>
             </motion.div>
         </>

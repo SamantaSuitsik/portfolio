@@ -21,7 +21,7 @@
     position: absolute;
     height: 41%;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
     background: linear-gradient(to bottom, transparent, #99bdd5, transparent); /* Adjust colors and direction as needed */
     pointer-events: none;
 }

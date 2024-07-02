@@ -28,6 +28,11 @@
     src: url(../public/fonts/DMSerifDisplay-Regular.ttf);
 }
 
+@font-face {
+    font-family: inconso;
+    src: url(../public/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
 
 
 body {
@@ -46,3 +51,39 @@ h1 {
     font-size: clamp(3rem, 1.4074rem + 5.9259vw, 4rem);
 }
 
+h2 {
+    font-family: inconso;
+    font-size: clamp(1.2rem, 1.0667rem + 0.5333vw, 1.5rem);
+}
+
+h3 {
+    font-size: clamp(1.875rem, 1.4583rem + 1.6667vw, 2.8125rem);
+}
+
+p {
+    /* 14 - 18 px */
+    font-size: clamp(0.875rem, 0.7639rem + 0.4444vw, 1.125rem);
+    font-family: inconso;
+}
+
+.squiggle {
+    --mask:
+      radial-gradient(67.58px at 50% calc(100% + 60px),#0000 calc(99% - 1px),#000 calc(101% - 1px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 15.5px + .5px)/120px 31px repeat-x,
+      radial-gradient(67.58px at 50% -60px,#0000 calc(99% - 1px),#000 calc(101% - 1px) 99%,#0000 101%) 50% calc(50% + 15.5px)/120px 31px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    height: 6vh;
+    background-color: #000;
+  }
+
+  /* line */
+  /*
+  .squiggle {
+    --mask:
+      radial-gradient(2.74px at 50% calc(100% + 2px),#0000 calc(99% - 1px),#000 calc(101% - 1px) 99%,#0000 101%) calc(50% - 2px) calc(50% - 1px + .5px)/4px 2px repeat-x,
+      radial-gradient(2.74px at 50% -2px,#0000 calc(99% - 1px),#000 calc(101% - 1px) 99%,#0000 101%) 50% calc(50% + 1px)/4px 2px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    height: 6vh;
+    background-color: #000;
+  } */
