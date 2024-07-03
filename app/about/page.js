@@ -8,20 +8,19 @@ import styles from "@/styles/page.module.css"
 export default function About() {
   return (
     <>
-    <AboutLayout />
-    <HeaderContainer />
-    <div className={styles.row}>
+      <HeaderContainer />
+      <div className={styles.row}>
 
-        <div className={styles.pic}>
-          <Picture />
-        </div>
+          <div className={styles.pic}>
+            <Picture />
+          </div>
 
-        <div className={styles.text}>
-          <TextBox />
-        </div>
+          <div className={styles.text}>
+            <TextBox />
+          </div>
 
-    </div>
-    <Footer />
+      </div>
+      <Footer />
     </>
   );
 }

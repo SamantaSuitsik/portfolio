@@ -1,7 +1,10 @@
 
 
 .pic {
-    width: 43%;
+    width: 80%;
+    object-fit: cover;
+    height: 100%;
     padding: 10px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
