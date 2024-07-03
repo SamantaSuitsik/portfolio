@@ -1,6 +1,21 @@
 .container {
     padding: 10px;
     border: 1px solid black;
-    width: 25vw;
-    height: 35vh;
+    box-sizing: border-box;
+    height: 30vh;
+    width: 20vw;
+}
+
+@media (width <= 450px) {
+    .container {
+        width: 38vw;
+        height: 20vh;
+    }
+}
+
+@media (450px < width <= 800px) {
+    .container {
+        height: 25vh;
+        width: 25vw;
+    }
 }
