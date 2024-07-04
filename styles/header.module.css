@@ -1,3 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6vh;
+}
+
 .blog, .about {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -7,6 +14,41 @@
 
 .menu {
     display: none;
+}
+
+.menuscreen {
+    display: none;
+}
+
+.outerwrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container > p {
+    cursor: pointer;
+}
+
+.mobilelinktext {
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    font-family: dm;
+}
+
+.mobilelinks {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.linkwrapper {
+    overflow: hidden;
 }
 
 @media (width <= 600px) {
@@ -19,6 +61,18 @@
         display: block;
         margin-right: 4vh;
         cursor: pointer;
+    }
+
+    .menuscreen {
+        display: block;
+        transform-origin: 0 top 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: blanchedalmond;
+        z-index: 2;
     }
 
     

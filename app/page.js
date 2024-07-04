@@ -8,11 +8,12 @@ import styles from "@/styles/page.module.css"
 import Projects from './components/Projects';
 import Works from './components/Works';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 export default function Home() {
     return (
         <div className={styles.container}>
-            <HeaderContainer />
+            <Header />
             <Title></Title>
             <SecondScreen />
             <Projects />

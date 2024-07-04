@@ -4,6 +4,7 @@
     box-sizing: border-box;
     height: 30vh;
     width: 20vw;
+    background-color: rgb(166, 198, 226);
 }
 
 @media (width <= 450px) {
